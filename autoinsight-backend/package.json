@@ -1,0 +1,22 @@
+{
+  "name": "autoinsight-backend",
+  "version": "1.0.0",
+  "description": "This is the FastAPI backend for the AutoInsight interactive dashboard. It ingests CSV files dynamically, performs statistical analysis using Pandas, and serves analytics via a REST API to a frontend React app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "papaparse": "^5.5.3",
+    "sqlite3": "^6.0.1",
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

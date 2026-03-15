@@ -1,0 +1,3 @@
+cd "D:\DASHBOARD PROJECT (PROJEXA)"
+cd autoinsight-dashboard
+npm run dev
